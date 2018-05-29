@@ -1,7 +1,6 @@
 # slides files
 *.slides.html 
 Slides/
-Objective_5_Benzene_Translation_Rotation.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
