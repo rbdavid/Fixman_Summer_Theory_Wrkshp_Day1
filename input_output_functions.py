@@ -13,7 +13,7 @@ def read_xyz(xyzFile):
 	for line in f:
 		# number of atoms is printed on first line of XYZ file format
 		if lineCount==0:
-			nAtoms = float(line)
+			nAtoms = int(line)
 			positions = np.empty((nAtoms,3),dtype=float)
 		# positions are after second line
 		elif lineCount > 1:
