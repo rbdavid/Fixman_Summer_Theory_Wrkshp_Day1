@@ -1,5 +1,6 @@
 # slides files
 *.slides.html 
+Slides/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
